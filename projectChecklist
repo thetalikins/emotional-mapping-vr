@@ -1,0 +1,27 @@
+project checklist
+
+1. neutral body template 
+2. D3 pr P5 library .... WebGL?
+3. wireframes for app selector 
+4. routes for each emotion from homepage // server.js
+_________________________
+
+
+MVP:
+2 main pages: 
+    1. emotions list
+    2. Meditation instruction beginning
+3rd page: neutral body  {{template}}
+    emotional iterations:
+    Anger, Pride, Shame, ... love.... Fear, Happiness, Sadness
+
+
+comment feature?
+___________________
+
+
+Stretch Goals:
+
+- music/audio for each meditation?
+- DB for users, login, comment feature
+    - index.js (ports), loads more stuff

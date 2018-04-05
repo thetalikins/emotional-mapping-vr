@@ -1,0 +1,9 @@
+{
+  "name": "vr",
+  "version": "1.0.0",
+  "description": "emotional-mapping-vr-v1",
+  "main": "index.js",
+  "repository": "https://github.com/thetalikins/emotional-mapping-vr.git",
+  "author": "thetalikins@gmail.com",
+  "license": "MIT"
+}

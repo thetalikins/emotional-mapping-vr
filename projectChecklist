@@ -1,4 +1,45 @@
-project checklist
+UPDATED checklist:
+
+
+
+databasing:
+
+1. users
+2. organizations
+3. enter date 
+4. 1 sensation: intensity scale and click points on the body
+5. app.test.js has nothing in it!
+6. index.js has nothing in it!
+
+stretch goals:
+ - 4 sensations
+ - entry for during or post-meditation
+
+
+rendering:
+
+1. neutral body template: 
+https://raw.githubusercontent.com/TheApplicationFactory/BodyMapPicker/master/bodyFront.png
+https://github.com/TheApplicationFactory/BodyMapPicker
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+===============================
+
+project checklist (original plan)
 
 1. neutral body template 
 2. D3 pr P5 library .... WebGL?

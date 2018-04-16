@@ -1,6 +1,9 @@
 import React from 'react'
 import { HashRouter as Router, Route } from 'react-router-dom'
 import Selections from './Selections'
+import Instructions from './Instructions'
+import Vector from './Vector'
+
 // app should be just a series of route
 const App = () => {
   return (
@@ -8,6 +11,8 @@ const App = () => {
     <div>
       {/* <h1> testing app </h1> */}
       <Route exact path = '/' component = {Selections} />
+      <Route exact path = '/' component = {Instructions} />
+      <Route exact path = '/' component = {Vector} />
       
   
   {/* <h1> working title </h1> */}
@@ -55,6 +60,7 @@ const App = () => {
  </div> */}
     </div>
  </Router>
+ 
 
   )
 }

@@ -5,7 +5,7 @@ const Selections = () => {
     return (
 /* <!-- button/selector --> */
 <div>
-    <h1> test </h1>
+    <h1> test Selector</h1>
     {/* <div class="dropdown">
         <button onclick="selectEmotion()" class="dropbtn">Select Emotion</button>
         {/* <!-- these need to be react links --> */}

@@ -1,6 +1,22 @@
 UPDATED checklist:
 
 
+what I need to figure out:
+
+
+- emotion-specific animations: prepping for each that is accomplishable (if one, which?)
+
+-rosie (monday noon, help): getting my app and components to render...
+
+- binding my eventual p5 to the components
+    breakdown:
+    intro and instructions stay -> dropdown menu for each selection 
+    animation rules for each of the emotions -- maybe a different color but same trajectory?
+    
+
+
+ignore the rest of this...
+
 
 databasing:
 
@@ -16,11 +32,6 @@ stretch goals:
  - entry for during or post-meditation
 
 
-rendering:
-
-1. neutral body template: 
-https://raw.githubusercontent.com/TheApplicationFactory/BodyMapPicker/master/bodyFront.png
-https://github.com/TheApplicationFactory/BodyMapPicker
 
 
 

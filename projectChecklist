@@ -3,12 +3,15 @@ UPDATED checklist:
 
 what I need to figure out:
 
+P5:
 
-- emotion-specific animations: prepping for each that is accomplishable (if one, which?)
+emotion specific prepping for each that is accomplishable (if one, which?)
+- location of origin (s)??
+- color
+??
+- consider: "liquid" for body vector to slow down/speed up boid movemet?
 
--p5: integrate to wider repo, helpful for commits
-
-    - consider: "liquid" for body vector to slow down/speed up boid movemet?
+REACT:
 
 - adding/exploring further styling to test rendering components 
 

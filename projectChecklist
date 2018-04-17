@@ -6,7 +6,11 @@ what I need to figure out:
 
 - emotion-specific animations: prepping for each that is accomplishable (if one, which?)
 
--rosie (monday noon, help): getting my app and components to render...
+-p5: switch out flock for particle system
+
+    - consider: "liquid" for body vector to slow down/speed up boid movemet?
+
+- adding/exploring further styling to test rendering components 
 
 - binding my eventual p5 to the components
     breakdown:

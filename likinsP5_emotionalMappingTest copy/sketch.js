@@ -1,6 +1,6 @@
 var img;
 var imgMask;
-var system;
+particles = [];
 
 function preload(){
     img = loadImage("bodyFrontGreylite.png");  
@@ -11,69 +11,132 @@ function setup () {
     createCanvas(800,1100);
     img.mask(img);
     imageMode(CENTER);
-    system = new ParticleSystem(createVector(width/2, 50));
 }
+
 
 function draw () {
-    background(51);
+    background(100);
     image(img, width/2, height/2);
-    //begin particle system:
-    system.addParticle();
-    system.run();
+//    //begin particle system:
+    for (let i=0; i <5; i++) {
+        let p = new Particle();
+        particles.push(p);
+    }
+    for (let i=particles.length -1; i>=0; i--) {
+        particles[i].update();
+        particles[i].show();
+        if (particles[i].finished()) {
+            particles.splice(i,1)
+        }
+    }
 }
 
-// A simple Particle class
-var Particle = function(position) {
-  this.acceleration = createVector(0, 0.1);
-  this.velocity = createVector(random(-1, 1), random(-1, 0));
-  this.position = position.copy();
-  this.lifespan = 255.0;
-};
-
-Particle.prototype.run = function() {
-  this.update();
-  this.display();
-};
-
-// Method to update position
-Particle.prototype.update = function(){
-  this.velocity.add(this.acceleration);
-  this.position.add(this.velocity);
-  this.lifespan -= 2;
-};
-
-// Method to display
-Particle.prototype.display = function() {
-  stroke(200, this.lifespan);
-  strokeWeight(2);
-  fill(127, this.lifespan);
-  ellipse(this.position.x, this.position.y, 12, 12);
-};
-
-// Is the particle still useful?
-Particle.prototype.isDead = function(){
-  if (this.lifespan < 0) {
-    return true;
-  } else {
-    return false;
-  }
-};
-
-var ParticleSystem = function(position) {
-  this.origin = position.copy();
-  this.particles = [];
-};
-
-ParticleSystem.prototype.addParticle = function() {
-  this.particles.push(new Particle(this.origin));
-};
-
-ParticleSystem.prototype.run = function() {
-  for (var i = this.particles.length-1; i >= 0; i--) {
-    var p = this.particles[i];
-    p.run();
-    if (p.isDead()) {
-      this.particles.splice(i, 1);
+class Particle {
+    constructor() {
+        this.x = 300;
+        this.y = 390;
+        this.vx = random(-1, 1);
+        this.vy = random(-5,-1);
+        this.alpha = 255;
     }
-  }
-};
+    
+    finished() {
+        return this.alpha < 0;
+    }
+    
+    update() {
+        this.x += this.vx;
+        this.y += this.vy;
+        this.alpha -= 5;
+    }
+    
+    show() {
+        noStroke();
+//        stroke(255);
+        fill(255, 10);
+        ellipse(this.x, this.y, 16, 16)
+    }
+}
+
+
+
+
+//var img;
+//var imgMask;
+//var system;
+//
+//function preload(){
+//    img = loadImage("bodyFrontGreylite.png");  
+//    imgMask- loadImage("bodyFrontPurple.png");
+//}
+//
+//function setup () {
+//    createCanvas(800,1100);
+//    img.mask(img);
+//    imageMode(CENTER);
+//    system = new ParticleSystem(createVector(width/2, 300));
+//}
+//
+//function draw () {
+//    background(51);
+//    image(img, width/2, height/2);
+//    //begin particle system:
+//    system.addParticle();
+//    system.run();
+//}
+//
+//// A simple Particle class
+//var Particle = function(position) {
+//  this.acceleration = createVector(0, 0.1);
+//  this.velocity = createVector(random(-1, 1), random(-1, 0));
+//  this.position = position.copy();
+//  this.lifespan = 255.0;
+//};
+//
+//Particle.prototype.run = function() {
+//  this.update();
+//  this.display();
+//};
+//
+//// Method to update position
+//Particle.prototype.update = function(){
+//  this.velocity.add(this.acceleration);
+//  this.position.add(this.velocity);
+//  this.lifespan -= 2;
+//};
+//
+//// Method to display
+//Particle.prototype.display = function() {
+//  stroke(200, this.lifespan);
+//  strokeWeight(2);
+//  fill(127, this.lifespan);
+//  ellipse(this.position.x, this.position.y, 12, 12);
+//};
+//
+//// Is the particle still useful?
+//Particle.prototype.isDead = function(){
+//  if (this.lifespan < 0) {
+//    return true;
+//  } else {
+//    return false;
+//  }
+//};
+//
+//var ParticleSystem = function(position) {
+//  this.origin = position.copy();
+//  this.particles = [];
+//};
+//
+//ParticleSystem.prototype.addParticle = function() {
+//  this.particles.push(new Particle(this.origin));
+//};
+//
+//ParticleSystem.prototype.run = function() {
+//  for (var i = this.particles.length-1; i >= 0; i--) {
+//    var p = this.particles[i];
+//    p.run();
+//    if (p.isDead()) {
+//      this.particles.splice(i, 1);
+//    }
+//  }
+//};

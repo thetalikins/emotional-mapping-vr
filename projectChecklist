@@ -6,7 +6,7 @@ what I need to figure out:
 
 - emotion-specific animations: prepping for each that is accomplishable (if one, which?)
 
--p5: switch out flock for particle system
+-p5: integrate to wider repo, helpful for commits
 
     - consider: "liquid" for body vector to slow down/speed up boid movemet?
 

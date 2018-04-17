@@ -36,8 +36,8 @@ class Particle {
         this.x = 400;
         this.y = 345;
         this.vx = random(-1, 1);
-        this.vy = random(-5,-1);
-        this.alpha = 255;
+        this.vy = random(-1, 1);
+        this.alpha = 250;
     }
     
     finished() {

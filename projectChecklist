@@ -22,6 +22,14 @@ REACT:
     
 
 
+make different components
+swap them out with the router - dropdown w onClick (when selection changes, redirect to different route)
+- function to render scripts all together 
+libraries taht are required by all the scripts -- link tags in the head of that html that will
+be happy to live in the standard head 
+
+focus: first component for first rendering
+
 ignore the rest of this...
 
 

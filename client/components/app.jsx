@@ -9,13 +9,13 @@ const App = () => {
   return (
   <Router>
     <div>
-      {/* <h1> testing app </h1> */}
-      <Route exact path = '/' component = {Selections} />
+  
+     
       <Route exact path = '/' component = {Instructions} />
+      <Route exact path = '/' component = {Selections} />
       <Route exact path = '/' component = {Vector} />
       
   
-  {/* <h1> working title </h1> */}
 
  {/* <div className="container">
     <div className="row">

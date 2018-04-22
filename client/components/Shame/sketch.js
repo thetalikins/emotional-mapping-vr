@@ -44,9 +44,9 @@ export default function sketch (p) {
             this.g = 247;
             this.b = 127;
             this.x = 400;
-            this.y = 278;
-            this.vx = p.random(-1, 1);
-            this.vy = p.random(-1.5, 1.5);
+            this.y = 83;
+            this.vx = p.random(-4, 4);
+            this.vy = p.random(-1, 1);
             this.alpha = 800;
         }
         

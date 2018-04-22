@@ -9,7 +9,7 @@ const Selections = () => {
             <div class="dropdown">
                 <button onClick="selectEmotion()" class="dropdown">Select Emotion</button>
                 <div id="myDropdown 1" class="dropdown-content">
-                    <a href="#">Anger</a>
+                    <a href="#">Sadness</a>
                     <a href="#">Pride</a>
                     <a href="#">Shame</a>
                 </div>

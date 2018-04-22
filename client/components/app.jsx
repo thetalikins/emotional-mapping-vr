@@ -2,7 +2,7 @@ import React from 'react'
 import { HashRouter as Router, Route } from 'react-router-dom'
 import Selections from './Selections'
 import Instructions from './Instructions'
-import Vector from './Vector'
+import PrideVector from './Pride/PrideVector'
 
 // app should be just a series of route
 const App = () => {
@@ -13,7 +13,7 @@ const App = () => {
      
       <Route exact path = '/' component = {Instructions} />
       <Route exact path = '/' component = {Selections} />
-      <Route exact path = '/' component = {Vector} />
+      <Route exact path = '/' component = {PrideVector} />
       
   
 

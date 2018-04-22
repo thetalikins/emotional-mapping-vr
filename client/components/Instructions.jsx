@@ -5,8 +5,8 @@ const Instructions = () => {
     return (
         <Router>
         <div>        
-            <div class="heading">
-                <div class="title">
+            <div className="heading">
+                <div className="title">
                     <h3>Processing Emotions</h3>
                     <h4>A Visualization Tool by Theta Likins</h4>
                 </div>        

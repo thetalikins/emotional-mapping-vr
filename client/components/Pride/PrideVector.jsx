@@ -5,7 +5,7 @@ import sketch from './sketch'
  
 
 
-const Vector = () => {
+const PrideVector = () => {
     return (
 
       <Router>
@@ -20,4 +20,4 @@ const Vector = () => {
 }
 
 
-export default Vector
+export default PrideVector

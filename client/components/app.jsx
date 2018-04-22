@@ -5,6 +5,8 @@ import Instructions from './Instructions'
 import PrideVector from './Pride/PrideVector'
 import SadnessVector from './Sadness/SadnessVector'
 import ShameVector from './Shame/ShameVector'
+import DisgustVector from './Disgust/DisgustVector'
+
 
 
 // app should be just a series of route
@@ -19,6 +21,7 @@ const App = () => {
       <Route exact path = '/' component = {PrideVector} />
       <Route exact path = '/' component = {SadnessVector} />
       <Route exact path = '/' component = {ShameVector} />
+      <Route exact path = '/' component = {DisgustVector} />
       
   
 

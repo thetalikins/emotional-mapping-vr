@@ -42,9 +42,9 @@ export default function sketch (p) {
             this.g = 247;
             this.b = 127;
             this.x = 400;
-            this.y = 278;
-            this.vx = p.random(-1.3, 1.3);
-            this.vy = p.random(-1.6, 1.6);
+            this.y = 270;
+            this.vx = p.random(-1.25, 1.25);
+            this.vy = p.random(-1.5, 1.5);
             this.alpha = 800;
         }
         

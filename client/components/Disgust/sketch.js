@@ -1,8 +1,7 @@
 import React from 'react'
 import p5 from 'p5'
 
-
-//SADNESS
+//disgust
 
 export default function sketch (p) {
     let rotation = 0;
@@ -41,14 +40,14 @@ export default function sketch (p) {
 
     class Particle {
         constructor () {
-            this.r = 192;
-            this.g = 45;
+            this.r = 251;
+            this.g = 186;
             this.b = 32;
             this.x = 400;
-            this.y = 328;
-            this.vx = p.random(-1.15, 1.15);
-            this.vy = p.random(-1.5, 1.5);
-            this.alpha = 800;
+            this.y = 175;
+            this.vx = p.random(-1.3, 1.3);
+            this.vy = p.random(-2.5, 2.5);
+            this.alpha = 300;
         }
         
         finished() {

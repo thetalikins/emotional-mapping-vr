@@ -46,7 +46,7 @@ export default function sketch (p) {
             this.x = 384;
             this.y = 65;
             this.vx = p.random(-1.25, 1.25);
-            this.vy = p.random(-4, 4);
+            this.vy = p.random(-2.65, 2.65);
             this.alpha = 200;
         }
         
@@ -57,14 +57,14 @@ export default function sketch (p) {
         update() {
             this.x += this.vx;
             this.y += this.vy;
-            this.alpha -= 20;
+            this.alpha -= 12;
         }
         
         show() {
             p.noStroke();
-            p.fill(this.r, this.g, this.b, 175);
+            p.fill(this.r, this.g, this.b, 80);
             // 3 = color triad; ?, color, ? , opacity
-            p.ellipse(this.x, this.y, 4, 8)
+            p.ellipse(this.x, this.y, 16, 16)
         }
     }
 

@@ -52,10 +52,7 @@ class Particle {
     
     show() {
         noStroke();
-//        stroke(255);
         fill(255, 10);
         ellipse(this.x, this.y, 16, 16)
     }
 }
-
-

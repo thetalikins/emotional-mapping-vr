@@ -1,28 +1,56 @@
 UPDATED checklist:
 
 
-what I need to figure out:
+p5: 
+
+make separate sktches with the 5 energies (space and ratna are basically already there)
+- once locations gathered/decided, 
+
+
+
+
+
+
+
+
+ignore the rest of this...
+
+
+
+
+
+
+
+
+
+====================================
+=================
 
 P5:
 
-emotion specific prepping for each that is accomplishable (if one, which?)
-- location of origin (s)??
-- color
-??
-- consider: "liquid" for body vector to slow down/speed up boid movemet?
+emotions:
+pride, shame, Anger
+
+for each emotion:
+    separate component and sketch linked to the onClick rendered in app
+        - this involves the react p5 wrapper
+    consider: how to write iNTENSITY functions as it relates to duration
+        - color mapping
+    make loose vector to surround image / ie sets function of where they stop?? ask Ross
+        - consider: "liquid" for body vector to slow down/speed up boid movemet?
+
+
+===================
 
 REACT:
 
-- adding/exploring further styling to test rendering components 
+- p5 wrapper:
 
-- binding my eventual p5 to the components
+- how the page will render: 
     breakdown:
     intro and instructions stay -> dropdown menu for each selection 
-    animation rules for each of the emotions -- maybe a different color but same trajectory?
     
 
-
-make different components
 swap them out with the router - dropdown w onClick (when selection changes, redirect to different route)
 - function to render scripts all together 
 libraries that are required by all the scripts -- link tags in the head of that html that will
@@ -33,6 +61,14 @@ focus: first component for first rendering
 ignore the rest of this...
 
 
+
+
+
+
+
+
+
+====================================
 databasing:
 
 1. users

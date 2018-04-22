@@ -4,27 +4,22 @@ UPDATED checklist:
 P5:
 
 emotions:
-pride, shame, sadness
+pride, shame, sadness, disgust
 
 for each emotion:
-    separate component and sketch linked to the onClick rendered in app
-        - this involves the react p5 wrapper
-    consider: how to write iNTENSITY functions as it relates to duration
-        - color mapping
-    make loose vector to surround image / ie sets function of where they stop?? ask Ross
-        - consider: "liquid" for body vector to slow down/speed up boid movemet?
+ - link each component to the onClick rendered in app
+
+ - ross: not much luck rendering multiple particle systems, halp?
+        
 
 
 ===================
 
 REACT:
 
-- p5 wrapper:
+- timer?
 
-- how the page will render: 
-    breakdown:
-    intro and instructions stay -> dropdown menu for each selection 
-    
+uh oh Ross I took these notes and can't make  sense of them: 
 
 swap them out with the router - dropdown w onClick (when selection changes, redirect to different route)
 - function to render scripts all together 
@@ -33,10 +28,24 @@ be happy to live in the standard head
 
 focus: first component for first rendering
 
+
+============
 ignore the rest of this...
+============
+
+ p5:
+    consider: how to write iNTENSITY functions as it relates to duration
+        - color mapping
+    make loose vector to surround image / ie sets function of where they stop?? ask Ross
+        - consider: "liquid" for body vector to slow down/speed up boid movemet?
 
 
+React:
+- p5 wrapper:
 
+- how the page will render: 
+    breakdown:
+    intro and instructions stay -> dropdown menu for each selection 
 
 
 

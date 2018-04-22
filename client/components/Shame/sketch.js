@@ -43,11 +43,11 @@ export default function sketch (p) {
             this.r = 255;
             this.g = 247;
             this.b = 127;
-            this.x = 400;
-            this.y = 83;
-            this.vx = p.random(-4, 4);
-            this.vy = p.random(-1, 1);
-            this.alpha = 800;
+            this.x = 384;
+            this.y = 65;
+            this.vx = p.random(-1.25, 1.25);
+            this.vy = p.random(-4, 4);
+            this.alpha = 200;
         }
         
         finished() {
@@ -57,14 +57,14 @@ export default function sketch (p) {
         update() {
             this.x += this.vx;
             this.y += this.vy;
-            this.alpha -= 12;
+            this.alpha -= 20;
         }
         
         show() {
             p.noStroke();
-            p.fill(this.r, this.g, this.b, 30);
+            p.fill(this.r, this.g, this.b, 175);
             // 3 = color triad; ?, color, ? , opacity
-            p.ellipse(this.x, this.y, 16, 16)
+            p.ellipse(this.x, this.y, 4, 8)
         }
     }
 

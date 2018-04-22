@@ -43,8 +43,8 @@ export default function sketch (p) {
             this.b = 127;
             this.x = 400;
             this.y = 278;
-            this.vx = p.random(-1.5, 1.5);
-            this.vy = p.random(-1.5, 1.5);
+            this.vx = p.random(-1.3, 1.3);
+            this.vy = p.random(-1.6, 1.6);
             this.alpha = 800;
         }
         
@@ -60,7 +60,7 @@ export default function sketch (p) {
         
         show() {
             p.noStroke();
-            p.fill(this.r, this.g, this.b, 30);
+            p.fill(this.r, this.g, this.b, 80);
             // 3 = color triad; ?, color, ? , opacity
             p.ellipse(this.x, this.y, 16, 16)
         }

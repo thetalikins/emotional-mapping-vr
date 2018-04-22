@@ -5,7 +5,7 @@ import sketch from './sketch'
  
 
 
-const PrideVector = () => {
+const SadnessVector = () => {
     return (
 
       <Router>
@@ -17,4 +17,4 @@ const PrideVector = () => {
 }
 
 
-export default PrideVector
+export default SadnessVector

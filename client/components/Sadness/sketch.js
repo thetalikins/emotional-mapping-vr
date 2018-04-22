@@ -2,14 +2,14 @@ import React from 'react'
 import p5 from 'p5'
 
 
-// need lots of changing: corresponding vectors and function refab + refract
-export default function pridesketch (p) {
+//SADNESS
+
+export default function sketch (p) {
     let rotation = 0;
 
 
 
     var img;
-   
     var particles = [];
 
     p.preload = function (){
@@ -40,12 +40,15 @@ export default function pridesketch (p) {
     }
 
     class Particle {
-        constructor() {
+        constructor () {
+            this.r = 500;
+            this.g = 0;
+            this.b = 0;
             this.x = 400;
-            this.y = 345;
+            this.y = 278;
             this.vx = p.random(-1, 1);
-            this.vy = p.random(-1, 1);
-            this.alpha = 250;
+            this.vy = p.random(-1.5, 1.5);
+            this.alpha = 800;
         }
         
         finished() {
@@ -55,12 +58,13 @@ export default function pridesketch (p) {
         update() {
             this.x += this.vx;
             this.y += this.vy;
-            this.alpha -= 5;
+            this.alpha -= 12;
         }
         
         show() {
             p.noStroke();
-            p.fill(255, 10);
+            p.fill(this.r, this.g, this.b, 30);
+            // 3 = color triad; ?, color, ? , opacity
             p.ellipse(this.x, this.y, 16, 16)
         }
     }
@@ -68,6 +72,3 @@ export default function pridesketch (p) {
 
 
 }
-
-// p5 react wrapper 
-// a different vector comp which pulls in each sketch, and a function to call each

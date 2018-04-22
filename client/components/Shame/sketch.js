@@ -1,23 +1,22 @@
 import React from 'react'
 import p5 from 'p5'
 
-export default function pridesketch (p) {
+//SHAME
+
+export default function sketch (p) {
     let rotation = 0;
 
 
 
     var img;
-    // var imgMask;
     var particles = [];
 
     p.preload = function (){
         img = p.loadImage("images/bodyFrontGreylite.png");  
-        // imgMask- p.loadImage("images/bodyFrontPurple.png");
     }
 
     p.setup = function  () {
         p.createCanvas(800,1100);
-        // p.img.mask(img);
         p.imageMode(p.CENTER);
     }
 
@@ -40,12 +39,15 @@ export default function pridesketch (p) {
     }
 
     class Particle {
-        constructor() {
+        constructor () {
+            this.r = 255;
+            this.g = 247;
+            this.b = 127;
             this.x = 400;
-            this.y = 345;
+            this.y = 278;
             this.vx = p.random(-1, 1);
-            this.vy = p.random(-1, 1);
-            this.alpha = 250;
+            this.vy = p.random(-1.5, 1.5);
+            this.alpha = 800;
         }
         
         finished() {
@@ -55,12 +57,13 @@ export default function pridesketch (p) {
         update() {
             this.x += this.vx;
             this.y += this.vy;
-            this.alpha -= 5;
+            this.alpha -= 12;
         }
         
         show() {
             p.noStroke();
-            p.fill(255, 10);
+            p.fill(this.r, this.g, this.b, 30);
+            // 3 = color triad; ?, color, ? , opacity
             p.ellipse(this.x, this.y, 16, 16)
         }
     }
@@ -68,6 +71,3 @@ export default function pridesketch (p) {
 
 
 }
-
-// p5 react wrapper 
-// a different vector comp which pulls in each sketch, and a function to call each

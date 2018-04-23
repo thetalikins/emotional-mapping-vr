@@ -6,10 +6,15 @@ const Selections = () => {
         <Router>
         <div>
             <div className="dropdown">
+                <Link className="button" to="/mystery">Mystery</Link> 
                 <Link className="button" to="/sad">Sadness</Link>
-                <Link className="button" to="/pride">Pride</Link>
                 <Link className="button" to="/disgust">Disgust</Link>
+                <Link className="button" to="/nostalgia">Nostalgia</Link>
+                <Link className="button" to="/presence">Presence</Link>
                 <Link className="button" to="/shame">Shame</Link>
+                <Link className="button" to="/pride"> Pride </Link>
+                <Link className="button" to="/vulnerability">Vulnerability</Link>
+                
                 </div>
             </div>
 

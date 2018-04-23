@@ -6,6 +6,8 @@ import PrideVector from './Pride/PrideVector'
 import SadnessVector from './Sadness/SadnessVector'
 import ShameVector from './Shame/ShameVector'
 import DisgustVector from './Disgust/DisgustVector'
+import NostalgiaVector from './Nostalgia/NostalgiaVector'
+
 
 
 const App = () => {
@@ -14,45 +16,18 @@ const App = () => {
     <div>
     <div class="sixteen columns">
       <div class="seven columns offset-by-three">
-  
-     
-      <Route path = '/' component = {Instructions} />
-      <Route path = '/' component = {Selections} />
-      <Route exact path = '/pride' component = {PrideVector} />
-      <Route exact path = '/sad' component = {SadnessVector} />
-      <Route exact path = '/shame' component = {ShameVector} />
-      <Route exact path = '/disgust' component = {DisgustVector} />
+        <Route path = '/' component = {Instructions} />
+        <Route path = '/' component = {Selections} />
+        <Route exact path = '/pride' component = {PrideVector} />
+        <Route exact path = '/sad' component = {SadnessVector} />
+        <Route exact path = '/shame' component = {ShameVector} />
+        <Route exact path = '/disgust' component = {DisgustVector} />
+        <Route exact path = '/nostalgia' component = {NostalgiaVector} />
+        </div>
       </div>
-      </div>
-
     </div>
  </Router>
- 
-
   )
 }
 
 export default App 
-
-
-
-// //-----------------------------these functions to select/route the user input 
-
-// selectEmotion() =>
-
-
-// selectTime() =>
-
-// //-------------------------------functions below for each emotional animation
-
-// Anger() => {
-
-// };
-
-// Pride() => {
-
-// };
-
-// Shame() => {
-
-// };

@@ -8,20 +8,18 @@ import ShameVector from './Shame/ShameVector'
 import DisgustVector from './Disgust/DisgustVector'
 
 
-
-// app should be just a series of route
 const App = () => {
   return (
   <Router>
     <div>
   
      
-      <Route exact path = '/' component = {Instructions} />
-      <Route exact path = '/' component = {Selections} />
-      <Route exact path = '/' component = {PrideVector} />
-      <Route exact path = '/' component = {SadnessVector} />
-      <Route exact path = '/' component = {ShameVector} />
-      <Route exact path = '/' component = {DisgustVector} />
+      <Route path = '/' component = {Instructions} />
+      <Route path = '/' component = {Selections} />
+      <Route exact path = '/pride' component = {PrideVector} />
+      <Route exact path = '/sad' component = {SadnessVector} />
+      <Route exact path = '/shame' component = {ShameVector} />
+      <Route exact path = '/disgust' component = {DisgustVector} />
       
 
     </div>

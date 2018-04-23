@@ -5,26 +5,25 @@ const Selections = () => {
     return (
         <Router>
         <div>
-
-            <div class="dropdown">
-                <button onClick="selectEmotion()" class="dropdown">Select Emotion</button>
-                <div id="myDropdown 1" class="dropdown-content">
-                    <a href="#">Sadness</a>
-                    <a href="#">Pride</a>
-                    <a href="#">Shame</a>
+            <p> Select Emotion </p>
+            <div className="dropdown">
+                <Link className="button" to="/sad">Sadness</Link>
+                <Link className="button" to="/pride">Pride</Link>
+                <Link className="button" to="/disgust">Disgust</Link>
+                <Link className="button" to="/shame">Shame</Link>
                 </div>
             </div>
 
 
-            <div class="dropdown">
+            {/* <div class="dropdown">
                 <button onClick="selectTime()" class="dropdown">Select Timing</button>
                 <div id="myDropdown 2" class="dropdown-content">
                     <a href="#">10 Seconds</a>
                     <a href="#">30 Seconds</a>
                     <a href="#">60 Seconds</a>
                 </div>
-            </div> 
-        </div>
+            </div>  */}
+        {/* </div> */}
         </Router>
     )
 }

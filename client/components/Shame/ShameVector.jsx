@@ -7,7 +7,6 @@ import sketch from './sketch'
 
 const ShameVector = () => {
     return (
-
       <Router>
        <div>
        <P5Wrapper sketch={sketch} />

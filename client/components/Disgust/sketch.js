@@ -22,7 +22,7 @@ export default function sketch (p) {
 
 
     p.draw = function () {
-        p.background(100);
+        p.background(80, 219, 26);
         p.image(img, p.width/2, p.height/2);
     //    //begin particle system:
         for (let i=0; i <5; i++) {

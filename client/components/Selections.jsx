@@ -5,7 +5,6 @@ const Selections = () => {
     return (
         <Router>
         <div>
-            <p> Select Emotion </p>
             <div className="dropdown">
                 <Link className="button" to="/sad">Sadness</Link>
                 <Link className="button" to="/pride">Pride</Link>

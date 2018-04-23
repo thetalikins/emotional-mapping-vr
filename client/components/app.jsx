@@ -12,6 +12,8 @@ const App = () => {
   return (
   <Router>
     <div>
+    <div class="sixteen columns">
+      <div class="seven columns offset-by-three">
   
      
       <Route path = '/' component = {Instructions} />
@@ -20,7 +22,8 @@ const App = () => {
       <Route exact path = '/sad' component = {SadnessVector} />
       <Route exact path = '/shame' component = {ShameVector} />
       <Route exact path = '/disgust' component = {DisgustVector} />
-      
+      </div>
+      </div>
 
     </div>
  </Router>

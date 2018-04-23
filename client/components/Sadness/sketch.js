@@ -41,9 +41,9 @@ export default function sketch (p) {
 
     class Particle {
         constructor () {
-            this.r = 192;
-            this.g = 45;
-            this.b = 32;
+            this.r = 1;
+            this.g = 31;
+            this.b = 110;
             this.x = 400;
             this.y = 328;
             this.vx = p.random(-1.15, 1.15);

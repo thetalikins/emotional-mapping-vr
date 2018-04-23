@@ -38,13 +38,13 @@ export default function sketch (p) {
 
     class Particle {
         constructor () {
-            this.r = 255;
-            this.g = 247;
-            this.b = 127;
+            this.r = 143;
+            this.g = 77;
+            this.b = 226;
             this.x = 400;
-            this.y = 270;
+            this.y = 273;
             this.vx = p.random(-1.25, 1.25);
-            this.vy = p.random(-1.5, 1.5);
+            this.vy = p.random(-1.3, 1.3);
             this.alpha = 800;
         }
         

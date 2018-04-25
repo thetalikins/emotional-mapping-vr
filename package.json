@@ -18,8 +18,9 @@
       "react"
     ]
   },
+
   "engines": {
-    "node" : "11.1"
+    "node": "6.11.1"
   },
   
   "jest": {

@@ -11,8 +11,8 @@ const PresenceVector = () => {
       <Router>
        <div>
        <div className="guidance">
-          <h4><b>Presence or clearing</b> is often reported most predominantly as a surrounding aura that encapsulates the whole being.</h4>
-          <h6>Bring to mind a time that you felt present. As you meditate with the visualization,
+          <h4><b>Presence or clearing</b> is often reported most predominantly as an energy that encapsulates the whole being.</h4>
+          <h6>Bring to mind a time that you felt fully present. As you meditate with the visualization,
           see if you can track your own lived experience of <b>presence</b>. Notice how the sensation arises, changes, and passes.
           </h6>
           </div>

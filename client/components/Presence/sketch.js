@@ -1,7 +1,7 @@
 import React from 'react'
 import p5 from 'p5'
 
-//mystery
+//presence
 
 export default function sketch (p) {
     let rotation = 0;
@@ -22,7 +22,7 @@ export default function sketch (p) {
 
 
     p.draw = function () {
-        p.background(230, 230, 250);
+        p.background(245,245,245);
         p.image(img, p.width/2, p.height/2);
     //    //begin particle system:
         for (let i=0; i <5; i++) {
@@ -37,17 +37,17 @@ export default function sketch (p) {
             }
         }
     }
-
+//presence
     class Particle {
         constructor () {
             this.r = 230;
             this.g = 230;
             this.b = 250;
             this.x = 400;
-            this.y = 175;
-            this.vx = p.random(-0.7, 0.7);
-            this.vy = p.random(-1.5, 1.5);
-            this.alpha = 500;
+            this.y = 1;
+            this.vx = p.random(-1.2, 1.2);
+            this.vy = p.random(1, 6);
+            this.alpha = 400;
         }
         
         finished() {
@@ -57,12 +57,12 @@ export default function sketch (p) {
         update() {
             this.x += this.vx;
             this.y += this.vy;
-            this.alpha -= 12;
+            this.alpha -= 2;
         }
         
         show() {
             p.noStroke();
-            p.fill(this.r, this.g, this.b, 40);
+            p.fill(this.r, this.g, this.b, 80);
             // 3 = color triad; ?, color, ? , opacity
             p.ellipse(this.x, this.y, 16, 16)
         }

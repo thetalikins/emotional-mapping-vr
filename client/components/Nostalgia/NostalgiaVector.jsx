@@ -12,7 +12,7 @@ const NostalgiaVector = () => {
        <div>
        <div className="guidance">
           <h4><b>Nostalgia</b> is often reported most predominantly in the head and face.</h4>
-          <h6>Bring to mind a time that you felt nostalgic. As you meditate with the visualisation,
+          <h6>Bring to mind a time that you felt nostalgic. As you meditate with the visualization,
           see if you can track your own lived experience of <b>nostalgia</b>. Notice how the sensation arises, changes, and passes.
           </h6>
           </div>

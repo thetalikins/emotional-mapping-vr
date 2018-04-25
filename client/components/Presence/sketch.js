@@ -40,9 +40,9 @@ export default function sketch (p) {
 //presence
     class Particle {
         constructor () {
-            this.r = 230;
-            this.g = 230;
-            this.b = 250;
+            this.r = 245;
+            this.g = 245;
+            this.b = 245;
             this.x = 400;
             this.y = 1;
             this.vx = p.random(-1.2, 1.2);
@@ -62,7 +62,7 @@ export default function sketch (p) {
         
         show() {
             p.noStroke();
-            p.fill(this.r, this.g, this.b, 80);
+            p.fill(this.r, this.g, this.b, 50);
             // 3 = color triad; ?, color, ? , opacity
             p.ellipse(this.x, this.y, 16, 16)
         }

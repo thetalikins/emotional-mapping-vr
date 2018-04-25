@@ -11,9 +11,9 @@ const MysteryVector = () => {
       <Router>
        <div>
        <div className="guidance">
-          <h4><b>Mystery</b> is often reported most predominantly in the head and throat.</h4>
-          <h6>Bring to mind a time that you felt ------. As you meditate with the visualisation,
-          see if you can track your own lived experience of <b>nostalgia</b>. Notice how the sensation arises, changes, and passes.
+          <h4><b>Mystery</b> is often reported most predominantly around the solar plexus and into the abdomin.</h4>
+          <h6>Bring to mind a time that you felt a sense of mystery. As you meditate with the visualization,
+          see if you can track your own lived experience of <b>mystery</b>. Notice how the sensation arises, changes, and passes.
           </h6>
           </div>
           <div className="sketch">

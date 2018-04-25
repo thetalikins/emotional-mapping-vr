@@ -12,7 +12,7 @@ const SadnessVector = () => {
        <div>
        <div className="guidance">
           <h4><b>Sadness</b> is often reported most predominantly between the heart and the guts</h4>
-          <h6>Bring to mind a time that you felt sad. As you meditate with the visualisation,
+          <h6>Bring to mind a time that you felt sad. As you meditate with the visualization,
           see if you can track your own lived experience of <b>sadness</b>. Notice how the sensation arises, changes, and passes.
           </h6>
           </div>

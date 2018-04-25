@@ -37,7 +37,7 @@ export default function sketch (p) {
             }
         }
     }
-
+//shame
     class Particle {
         constructor () {
             this.r = 226;

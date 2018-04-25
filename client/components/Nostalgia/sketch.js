@@ -22,7 +22,7 @@ export default function sketch (p) {
 
 
     p.draw = function () {
-        p.background(230, 230, 250);
+        p.background(176,196,222);
         p.image(img, p.width/2, p.height/2);
     //    //begin particle system:
         for (let i=0; i <5; i++) {
@@ -37,17 +37,17 @@ export default function sketch (p) {
             }
         }
     }
-
+//nostalgia
     class Particle {
         constructor () {
-            this.r = 230;
-            this.g = 230;
-            this.b = 250;
+            this.r = 176;
+            this.g = 196;
+            this.b = 222;
             this.x = 400;
-            this.y = 175;
-            this.vx = p.random(-0.7, 0.7);
-            this.vy = p.random(-1.5, 1.5);
-            this.alpha = 500;
+            this.y = 17;
+            this.vx = p.random(-0.4, 0.4);
+            this.vy = p.random(0, 1);
+            this.alpha = 200;
         }
         
         finished() {
@@ -57,7 +57,7 @@ export default function sketch (p) {
         update() {
             this.x += this.vx;
             this.y += this.vy;
-            this.alpha -= 12;
+            this.alpha -= 2;
         }
         
         show() {

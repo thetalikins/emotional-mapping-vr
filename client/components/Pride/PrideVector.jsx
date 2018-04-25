@@ -13,7 +13,7 @@ const PrideVector = () => {
        <div className="guidance">
           <h4><b>Pride</b> is often reported most predominantly in the solar plexus and high chest.</h4>
           <h6>
-            Bring to mind a time that you felt proud. As you meditate with the visualisation,
+            Bring to mind a time that you felt proud. As you meditate with the visualization,
           see if you can track your own lived experience of <b>pride</b>. Notice how the sensation arises, changes, and passes.
           </h6>
           </div>

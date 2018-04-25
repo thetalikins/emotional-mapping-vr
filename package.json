@@ -18,6 +18,10 @@
       "react"
     ]
   },
+  "engines": {
+    "node" : "11.1"
+  },
+  
   "jest": {
     "setupFiles": [
       "./tests/setup.js"
@@ -47,6 +51,5 @@
     "webpack-cli": "^2.0.14"
   },
   "devDependencies": {
-    
   }
 }

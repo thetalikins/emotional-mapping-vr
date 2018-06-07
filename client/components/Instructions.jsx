@@ -14,7 +14,9 @@ const Instructions = () => {
                     <h4>A visualization tool created by Theta Likins</h4>
                 </div>        
                 <div class="introduction">
-                    <h6> Emotions arise and they fall. Select an emotion from the list below that can help you visualize your emotions as they arise within you and dissolve back into space.</h6>
+                    <h6> Emotions arise and they fall. Select an emotion from the list below that can help you visualize your emotions. Look for any sensations within you that the visualization brings up, and track them as they arise within you and dissolve back into space.</h6>
+                    <br/>
+                    <h6>Please note, these content of these visualizations do not represent a universal experience. They are intended to be a simple animation of one place sensations might occur. </h6>
                 </div>
              </div>
 

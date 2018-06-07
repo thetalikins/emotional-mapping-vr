@@ -7,7 +7,7 @@
   "author": "thetalikins@gmail.com",
   "license": "MIT",
   "scripts": {
-    "postinstall": "find /tmp && webpack --display-error-details",
+    "postinstall": "webpack",
     "start": "node server",
     "dev": "node server & webpack --watch",
     "test": "jest --watchAll"

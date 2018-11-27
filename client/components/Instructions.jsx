@@ -11,7 +11,7 @@ const Instructions = () => {
             <div className="heading">
                 <div className="title">
                     <h1>Processing Emotions:</h1>
-                    <h4>A visualization tool created by Theta Likins</h4>
+                    <h4>A visualization tool created by Delta Likins</h4>
                 </div>        
                 <div class="introduction">
                     <h6> Emotions arise and they fall. Select an emotion from the list below that can help you visualize your emotions. Look for any sensations within you that the visualization brings up, and track them as they arise within you and dissolve back into space.</h6>

@@ -9,7 +9,7 @@ The intention of this project was to build a visualisation resource for those wh
 
 This project utilises the p5 animation library, the Skeleton styling framework, and Reactjs. 
 
-Build by Theta Likins, April 2018.
+Build by Delta Likins, April 2018.
 
 ---
 
